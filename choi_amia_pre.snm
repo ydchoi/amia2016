@@ -1,8 +1,7 @@
 \beamer@slide {fig:illustration_of_embeddings}{3}
-\beamer@slide {fig:temporal}{9}
-\beamer@slide {fig:weighted_graph_viz}{10}
-\beamer@slide {umls_dcg}{18}
-\beamer@slide {table:maytreat_mayprevent}{21}
-\beamer@slide {table:disease_disease}{22}
-\beamer@slide {table:nn_diagnosis}{23}
-\beamer@slide {table:genotype-examples}{24}
+\beamer@slide {fig:temporal}{10}
+\beamer@slide {umls_dcg}{20}
+\beamer@slide {table:maytreat_mayprevent}{23}
+\beamer@slide {table:disease_disease}{24}
+\beamer@slide {table:nn_diagnosis}{25}
+\beamer@slide {table:genotype-examples}{26}

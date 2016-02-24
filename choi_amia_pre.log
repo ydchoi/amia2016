@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 FEB 2016 18:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 FEB 2016 21:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -707,26 +707,10 @@ Package: beamerinnerthemedefault 2014/06/30  (rcs-revision 580088513a67)
 emedefault.sty
 Package: beamerouterthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
 )))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeMa
-drid.sty
-Package: beamerthemeMadrid 2010/06/17  (rcs-revision d02a7cf4d8ae)
-
 (/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
-emewhale.sty
-Package: beamercolorthemewhale 2010/06/17  (rcs-revision d02a7cf4d8ae)
+emebeaver.sty
+Package: beamercolorthemebeaver 2010/06/17  (rcs-revision d02a7cf4d8ae)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
-emeorchid.sty
-Package: beamercolorthemeorchid 2010/06/17  (rcs-revision d02a7cf4d8ae)
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerth
-emerounded.sty
-Package: beamerinnerthemerounded 2010/06/17  (rcs-revision d02a7cf4d8ae)
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/outer/beamerouterth
-emeinfolines.sty
-Package: beamerouterthemeinfolines 2012/10/16  (rcs-revision 51a8c72084af)
-))
 (/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/font/beamerfontthem
 eserif.sty
 Package: beamerfontthemeserif 2010/06/17  (rcs-revision d02a7cf4d8ae)
@@ -1047,14 +1031,14 @@ LaTeX Font Info:    ... okay on input line 25.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(10.95003pt, 342.2953pt, 10.95003pt)
+* h-part:(L,W,R)=(28.45274pt, 307.28987pt, 28.45274pt)
 * v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
 * \paperwidth=364.19536pt
 * \paperheight=273.14662pt
-* \textwidth=342.2953pt
+* \textwidth=307.28987pt
 * \textheight=244.6939pt
-* \oddsidemargin=-61.31996pt
-* \evensidemargin=-61.31996pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
@@ -1149,389 +1133,146 @@ Dictionary: translator-theorem-dictionary, Language: English
 LaTeX Info: Redefining \includegraphics on input line 25.
 
 (./choi_amia_pre.nav)
-Overfull \hbox (213.92128pt too wide) in paragraph at lines 25--25
- [][]  \OT1/cmr/m/n/6 ([])  
- []
-
-
-Overfull \hbox (91.00066pt too wide) in paragraph at lines 25--25
- [][][][]  
- []
-
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4> not available
 (Font)              size <5> substituted on input line 27.
 
-
-Overfull \hbox (213.92128pt too wide) has occurred while \output is active
- [][]  \OT1/cmr/m/n/6 ([])  
- []
-
-
-Overfull \hbox (91.00066pt too wide) has occurred while \output is active
- [][][][]  
- []
-
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (213.92128pt too wide) has occurred while \output is active
- [][]  \OT1/cmr/m/n/6 ([])  
- []
-
-
-Overfull \hbox (91.00066pt too wide) has occurred while \output is active
- [][][][]  
- []
-
 [2
 
-] <figs/illustration_of_embeddings.pdf, id=40, 669.50125pt x 289.08pt>
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 58.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 58.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<figs/illustration_of_embeddings.pdf, id=27, 669.50125pt x 289.08pt>
 File: figs/illustration_of_embeddings.pdf Graphic file (type pdf)
 
 <use figs/illustration_of_embeddings.pdf>
 Package pdftex.def Info: figs/illustration_of_embeddings.pdf used on input line
  58.
-(pdftex.def)             Requested size: 205.37926pt x 88.67873pt.
+(pdftex.def)             Requested size: 184.3758pt x 79.60971pt.
+ [3
 
-Overfull \hbox (213.92128pt too wide) has occurred while \output is active
- [][]  \OT1/cmr/m/n/6 ([])  
- []
+ <./figs/illustration_of_embeddings.pdf>] [4
 
+] [5
 
-Overfull \hbox (91.00066pt too wide) has occurred while \output is active
- [][][][]  
- []
+] [6
 
-[3
+] [7
 
- <./figs/illustration_of_embeddings.pdf>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 87.
+] [8
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 87.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Overfull \hbox (213.92128pt too wide) has occurred while \output is active
- [][]  \OT1/cmr/m/n/6 ([])  
- []
-
-
-Overfull \hbox (91.00066pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[4
+] [9
 
 ]
-Overfull \hbox (213.92128pt too wide) has occurred while \output is active
- [][]  \OT1/cmr/m/n/6 ([])  
- []
-
-
-Overfull \hbox (91.00066pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[5
-
-]
-Overfull \hbox (213.92128pt too wide) has occurred while \output is active
- [][]  \OT1/cmr/m/n/6 ([])  
- []
-
-
-Overfull \hbox (91.00066pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[6
-
-]
-Overfull \hbox (213.92128pt too wide) has occurred while \output is active
- [][]  \OT1/cmr/m/n/6 ([])  
- []
-
-
-Overfull \hbox (91.00066pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[7
-
-]
-Overfull \hbox (213.92128pt too wide) has occurred while \output is active
- [][]  \OT1/cmr/m/n/6 ([])  
- []
-
-
-Overfull \hbox (91.00066pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[8
-
-] <figs/Figure1-claims-timeline.pdf, id=154, 723.70375pt x 381.425pt>
+<figs/Figure1-claims-timeline.pdf, id=141, 723.70375pt x 381.425pt>
 File: figs/Figure1-claims-timeline.pdf Graphic file (type pdf)
 
 <use figs/Figure1-claims-timeline.pdf>
-Package pdftex.def Info: figs/Figure1-claims-timeline.pdf used on input line 15
-7.
-(pdftex.def)             Requested size: 205.37926pt x 108.24164pt.
+Package pdftex.def Info: figs/Figure1-claims-timeline.pdf used on input line 19
+4.
+(pdftex.def)             Requested size: 245.83282pt x 129.56638pt.
+ [10
 
-<figs/algorithm1_figure.pdf, id=155, 784.9325pt x 97.36375pt>
-File: figs/algorithm1_figure.pdf Graphic file (type pdf)
-
-<use figs/algorithm1_figure.pdf>
-Package pdftex.def Info: figs/algorithm1_figure.pdf used on input line 157.
-(pdftex.def)             Requested size: 308.06367pt x 38.21237pt.
-
-Overfull \vbox (24.61253pt too high) detected at line 157
- []
-
-
-Overfull \hbox (213.92128pt too wide) has occurred while \output is active
- [][]  \OT1/cmr/m/n/6 ([])  
- []
-
-
-Overfull \hbox (91.00066pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[9
-
- <./figs/Figure1-claims-timeline.pdf> <./figs/algorithm1_figure.pdf>]
-<figs/Figure1-transform.pdf, id=327, 719.68875pt x 398.48875pt>
+ <./figs/Figure1-claims-timeline.pdf>] <figs/Figure1-transform.pdf, id=163, 719
+.68875pt x 398.48875pt>
 File: figs/Figure1-transform.pdf Graphic file (type pdf)
 
 <use figs/Figure1-transform.pdf>
-Package pdftex.def Info: figs/Figure1-transform.pdf used on input line 173.
-(pdftex.def)             Requested size: 205.37926pt x 113.7164pt.
+Package pdftex.def Info: figs/Figure1-transform.pdf used on input line 207.
+(pdftex.def)             Requested size: 245.83282pt x 136.11674pt.
+ [11
 
-Overfull \hbox (213.92128pt too wide) has occurred while \output is active
- [][]  \OT1/cmr/m/n/6 ([])  
- []
-
-
-Overfull \hbox (91.00066pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[10
-
- <./figs/Figure1-transform.pdf>]
-Overfull \hbox (213.92128pt too wide) has occurred while \output is active
- [][]  \OT1/cmr/m/n/6 ([])  
- []
-
-
-Overfull \hbox (91.00066pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[11
+ <./figs/Figure1-transform.pdf>] [12
 
 ]
-Overfull \hbox (213.92128pt too wide) has occurred while \output is active
- [][]  \OT1/cmr/m/n/6 ([])  
- []
-
-
-Overfull \hbox (91.00066pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[12
-
-]
-Overfull \hbox (213.92128pt too wide) has occurred while \output is active
- [][]  \OT1/cmr/m/n/6 ([])  
- []
-
-
-Overfull \hbox (91.00066pt too wide) has occurred while \output is active
- [][][][]  
- []
-
 [13
 
-]
-Overfull \hbox (213.92128pt too wide) has occurred while \output is active
- [][]  \OT1/cmr/m/n/6 ([])  
- []
+] [14
 
+] [15
 
-Overfull \hbox (91.00066pt too wide) has occurred while \output is active
- [][][][]  
- []
+] [16
 
-[14
+] [17
 
-]
-Overfull \hbox (213.92128pt too wide) has occurred while \output is active
- [][]  \OT1/cmr/m/n/6 ([])  
- []
+] [18
 
-
-Overfull \hbox (91.00066pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[15
-
-]
-Overfull \hbox (213.92128pt too wide) has occurred while \output is active
- [][]  \OT1/cmr/m/n/6 ([])  
- []
-
-
-Overfull \hbox (91.00066pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[16
-
-]
-Overfull \hbox (213.92128pt too wide) has occurred while \output is active
- [][]  \OT1/cmr/m/n/6 ([])  
- []
-
-
-Overfull \hbox (91.00066pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[17
+] [19
 
 ]
 
-LaTeX Warning: Citation `DeVine2014' on page 18 undefined on input line 282.
+LaTeX Warning: Citation `DeVine2014' on page 20 undefined on input line 354.
 
 
-Overfull \hbox (213.92128pt too wide) has occurred while \output is active
- [][]  \OT1/cmr/m/n/6 ([])  
- []
-
-
-Overfull \hbox (91.00066pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[18
-
-]
-Overfull \hbox (213.92128pt too wide) has occurred while \output is active
- [][]  \OT1/cmr/m/n/6 ([])  
- []
-
-
-Overfull \hbox (91.00066pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[19
-
-]
-Overfull \hbox (213.92128pt too wide) has occurred while \output is active
- [][]  \OT1/cmr/m/n/6 ([])  
- []
-
-
-Overfull \hbox (91.00066pt too wide) has occurred while \output is active
- [][][][]  
+Overfull \hbox (27.37146pt too wide) in paragraph at lines 354--354
+ [] 
  []
 
 [20
 
 ]
-
-LaTeX Warning: Citation `DeVine2014' on page 21 undefined on input line 375.
-
-
-Overfull \hbox (213.92128pt too wide) has occurred while \output is active
- [][]  \OT1/cmr/m/n/6 ([])  
- []
-
-
-Overfull \hbox (91.00066pt too wide) has occurred while \output is active
- [][][][]  
+Overfull \hbox (33.23344pt too wide) in paragraph at lines 383--383
+ [] 
  []
 
 [21
 
 ]
-
-LaTeX Warning: Citation `DeVine2014' on page 22 undefined on input line 409.
-
-
-Overfull \hbox (213.92128pt too wide) has occurred while \output is active
- [][]  \OT1/cmr/m/n/6 ([])  
- []
-
-
-Overfull \hbox (91.00066pt too wide) has occurred while \output is active
- [][][][]  
+Overfull \hbox (23.05766pt too wide) in paragraph at lines 413--413
+ [] 
  []
 
 [22
 
 ]
-Overfull \hbox (213.92128pt too wide) has occurred while \output is active
- [][]  \OT1/cmr/m/n/6 ([])  
- []
+
+LaTeX Warning: Citation `DeVine2014' on page 23 undefined on input line 447.
 
 
-Overfull \hbox (91.00066pt too wide) has occurred while \output is active
- [][][][]  
+Overfull \hbox (31.89787pt too wide) in paragraph at lines 447--447
+ [] 
  []
 
 [23
 
 ]
-Overfull \hbox (8.82257pt too wide) in paragraph at lines 484--484
+
+LaTeX Warning: Citation `DeVine2014' on page 24 undefined on input line 481.
+
+
+Overfull \hbox (20.47229pt too wide) in paragraph at lines 481--481
  [] 
- []
-
-
-Overfull \hbox (213.92128pt too wide) has occurred while \output is active
- [][]  \OT1/cmr/m/n/6 ([])  
- []
-
-
-Overfull \hbox (91.00066pt too wide) has occurred while \output is active
- [][][][]  
  []
 
 [24
 
 ]
-Overfull \hbox (213.92128pt too wide) has occurred while \output is active
- [][]  \OT1/cmr/m/n/6 ([])  
- []
-
-
-Overfull \hbox (91.00066pt too wide) has occurred while \output is active
- [][][][]  
+Overfull \hbox (29.70609pt too wide) in paragraph at lines 524--524
+ [] 
  []
 
 [25
 
 ]
-Overfull \hbox (213.92128pt too wide) has occurred while \output is active
- [][]  \OT1/cmr/m/n/6 ([])  
- []
-
-
-Overfull \hbox (91.00066pt too wide) has occurred while \output is active
- [][][][]  
+Overfull \hbox (43.828pt too wide) in paragraph at lines 556--556
+ [] 
  []
 
 [26
+
+] [27
+
+] [28
 
 ]
 \tf@nav=\write6
@@ -1543,11 +1284,11 @@ Overfull \hbox (91.00066pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `choi_amia_pre.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 494.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 494.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 566.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 566.
  (./choi_amia_pre.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 494.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 494.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 566.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 566.
 Package rerunfilecheck Info: File `choi_amia_pre.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1558,16 +1299,19 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 494.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 566.
  ) 
 Here is how much of TeX's memory you used:
- 18478 strings out of 493089
- 346931 string characters out of 6134842
- 440615 words of memory out of 5000000
- 21463 multiletter control sequences out of 15000+600000
- 11474 words of font info for 45 fonts, out of 8000000 for 9000
+ 18328 strings out of 493089
+ 341923 string characters out of 6134842
+ 438546 words of memory out of 5000000
+ 21324 multiletter control sequences out of 15000+600000
+ 11175 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,16n,57p,412b,501s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,13n,55p,412b,417s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
@@ -1578,16 +1322,16 @@ cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
 l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/20
-15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on choi_amia_pre.pdf (26 pages, 406170 bytes).
+/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/20
+15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/t
+exmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on choi_amia_pre.pdf (28 pages, 335802 bytes).
 PDF statistics:
- 538 PDF objects out of 1000 (max. 8388607)
- 370 compressed objects within 4 object streams
- 61 named destinations out of 1000 (max. 500000)
- 87 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 362 PDF objects out of 1000 (max. 8388607)
+ 265 compressed objects within 3 object streams
+ 64 named destinations out of 1000 (max. 500000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 

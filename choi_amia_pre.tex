@@ -1,8 +1,8 @@
 \documentclass{beamer}
 \mode<presentation>
 {
-  \usetheme{Madrid}      % or try Darmstadt, Madrid, Warsaw, ...
-  \usecolortheme{default} % or try albatross, beaver, crane, ...
+  \usetheme{default}      % or try Darmstadt, Madrid, Warsaw, ...
+  \usecolortheme{beaver} % or try albatross, beaver, crane, ...
   \usefonttheme{serif}  % or try serif, structurebold, ...
   \setbeamertemplate{navigation symbols}{}
   \setbeamertemplate{caption}[numbered]
@@ -89,8 +89,18 @@ suffers from the same problem of curse of dimensionality.
 \begin{frame}
 \frametitle{Previous Work}
 \begin{itemize}
-\item Algorithmic: Mikolov et el. Word2Vec  
-\item 
+\item Algorithmically, we leverage and modify 
+the work of Mikolov et al., Word2Vec,
+and Levy et al, SVD method with Shifted Positive
+Pointwise Mutual Information.
+
+\bigskip
+
+\item There are previous works, specifically for
+learning medical concept embeddings, using the
+techniques above (DeVine et al., Minaro-Gimenez et al).
+We will discuss them further in the
+later section. 
 
 \end{itemize}
 \end{frame}
@@ -98,22 +108,21 @@ suffers from the same problem of curse of dimensionality.
 \begin{frame}
 \frametitle{Outline}
 \begin{center}
+The talk will include two main parts:
+
+\bigskip
+
 \begin{itemize}
-\item 
+\item Description of the introduced embeddings: 
+the distributions of interest 
+and necessary algorithmic adjustments.
 
-\item Analysis
+\bigskip
 
-\end{itemize}
-\end{center}
-\end{frame}
+\item Quantitative analysis of the embeddings:
+an identification of abstract properties
+and their associated metrics.
 
-\begin{frame}
-\frametitle{Outline}
-\begin{center}
-\begin{itemize}
-\item ddd
-
-\item Analysis
 
 \end{itemize}
 \end{center}
@@ -123,72 +132,93 @@ suffers from the same problem of curse of dimensionality.
 \frametitle{Three Types of Medical Concept Embeddings}
 \begin{itemize}
 \item Medical Concept Embeddings from Medical
-Journals (previous work; MCEMJ)
+Journals(Previous work; MCEMJ)
 
 \bigskip
 
 \item Medical Concept Embeddings from Medical Claims 
-(new; MCEMC)
+(New; MCEMC)
 
 \bigskip
 
 \item Medical Concept Embeddings from Clinical 
-Narratives (new; MCECN)
+Narratives (New; MCECN)
 \end{itemize}
 \end{frame}
 
 \begin{frame}
+\frametitle{Background}
+\begin{itemize}
+\item In natural language processing, the key
+information, that allows one to learn a sensible
+set of embedding of words, is 
+the distribution of nearby 
+words, observed at the document level. 
+
+\bigskip
+
+\item With the distribution of nearby words, 
+one can choose to train a neural network
+that optimizes the prediction of nearby words,
+or use techniques for 
+producing low-dimensional factorization of matrices. 
+
+
+\bigskip
+
+\item Previous works of medical concept embeddings
+naturally extend the idea by using the same idea,
+but restricting the algorithm to medical texts
+and only medically relevant terms. 
+
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\centering
+We will instead focus on the distribution of 
+temporally nearby medical concepts, within
+available context of a given patient.
+
+\end{frame}
+
+\begin{frame}
 \frametitle{Medical Concept Embeddings from
-Medical Claims (MCEMC)}
+Medical \\ Claims (MCEMC)}
 \begin{figure}[t]
     \centering 
-    \includegraphics[width=.6\linewidth]{figs/Figure1-claims-timeline.pdf}
+    \includegraphics[width=0.8\linewidth]{figs/Figure1-claims-timeline.pdf}
     \caption{\scriptsize Illustration of the data used to learn
       embeddings of medical concepts, for a single patient.\label{fig:temporal}}
 \end{figure}
+\end{frame}
 
+\begin{frame}
+\frametitle{Medical Concept Embeddings from
+Clinical \\ Narratives (MCECN)}
 \begin{figure}[t]
     \centering 
-    \includegraphics[width=0.9\linewidth]{figs/algorithm1_figure.pdf}
-    \caption{\footnotesize
-}
+    \includegraphics[width=0.8\linewidth]{figs/Figure1-transform.pdf}
+    \caption{ \scriptsize
+Shown on the left is the input, a weighted graph
+of medical concept pairs with their
+temporal frequencies from Shah et al.}  
 \end{figure}
-
 \end{frame}
 
-\begin{frame}
-\frametitle{Disclosure}
-\begin{figure}[t]
-    \centering 
-    \includegraphics[width=.6\linewidth]{figs/Figure1-transform.pdf}
-    \caption{ \footnotesize Shown on the left is the input, a weighted graph 
-\label{fig:weighted_graph_viz}}
-\end{figure}
-
-\begin{center}
-
-The authors have no relationships 
-with commercial interests.
-\end{center}
-\end{frame}
-\begin{frame}
-\frametitle{Disclosure}
-\begin{center}
-The authors have no relationships 
-with commercial interests.
-\end{center}
-\end{frame}
-\begin{frame}
-\frametitle{Motivation}
-\end{frame}
 \begin{frame}
 \frametitle{Preliminary studies: the neighborhood
-structures look different with bare eyes.}
+structures look different.}
 \begin{itemize}
-\item
-Even from our preliminary studies,
-we qualitatively observed that there were significant differences among
-the embeddings.
+\item It is standard to look at the neighborhood
+structures of word embeddings in natural language
+processing community.
+
+\bigskip
+
+\item Even from our preliminary studies,
+we qualitatively observed that there were significant differences in the respective neighborhood structures
+among the embeddings.
 
 \bigskip
 
@@ -200,12 +230,54 @@ around lung cancer would include drugs and treatments related to lung cancer.
 \end{frame}
 
 \begin{frame}
-\frametitle{Call for Methodology}
+\frametitle{Limitations of qualitative analysis}
+\begin{itemize}
+\item Although it is standard to do such analysis
+by observing the selected subset of embeddings,
+it is not entirely obvious, if the claim holds
+true for the entire set of embeddings ($100,000$ 
+medical concepts) 
+
+\bigskip
+
+\item What do we exactly mean by medically
+related? 
+
+\end{itemize}
+\end{frame}
+
+\begin{frame}
 \begin{center}
 Can we provide a concrete, quantitative methodology,
 with which we could precisely characterize each set of embeddings?
 \end{center}
 \end{frame}
+
+\begin{frame}
+\frametitle{Call for Methodology: Two Abstract 
+Properties}
+\begin{center}
+To address the issue, we introduce the notion of
+two abstract properties to formalize the
+intuition, that we gathered from the preliminary 
+studies:
+
+\bigskip
+
+\begin{itemize}
+\item The Conceptual Similarity Property
+
+\bigskip
+
+\item The Medical Relatedness Property
+\end{itemize}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\frametitle{dd}
+\end{frame}
+
 \begin{frame}
 \frametitle{Definition of the 
 Conceptual Similarity Property}
