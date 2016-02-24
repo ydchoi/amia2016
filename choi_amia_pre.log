@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 FEB 2016 21:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 FEB 2016 21:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -707,6 +707,26 @@ Package: beamerinnerthemedefault 2014/06/30  (rcs-revision 580088513a67)
 emedefault.sty
 Package: beamerouterthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
 )))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeMa
+drid.sty
+Package: beamerthemeMadrid 2010/06/17  (rcs-revision d02a7cf4d8ae)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
+emewhale.sty
+Package: beamercolorthemewhale 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
+emeorchid.sty
+Package: beamercolorthemeorchid 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerth
+emerounded.sty
+Package: beamerinnerthemerounded 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/outer/beamerouterth
+emeinfolines.sty
+Package: beamerouterthemeinfolines 2012/10/16  (rcs-revision 51a8c72084af)
+))
 (/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
 emebeaver.sty
 Package: beamercolorthemebeaver 2010/06/17  (rcs-revision d02a7cf4d8ae)
@@ -1008,20 +1028,20 @@ subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 ) (./choi_amia_pre.aux)
 \openout1 = `choi_amia_pre.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1031,14 +1051,14 @@ LaTeX Font Info:    ... okay on input line 25.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(28.45274pt, 307.28987pt, 28.45274pt)
+* h-part:(L,W,R)=(10.95003pt, 342.2953pt, 10.95003pt)
 * v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
 * \paperwidth=364.19536pt
 * \paperheight=273.14662pt
-* \textwidth=307.28987pt
+* \textwidth=342.2953pt
 * \textheight=244.6939pt
-* \oddsidemargin=-43.81725pt
-* \evensidemargin=-43.81725pt
+* \oddsidemargin=-61.31996pt
+* \evensidemargin=-61.31996pt
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
@@ -1087,7 +1107,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box62
-Package hyperref Info: Link coloring OFF on input line 25.
+Package hyperref Info: Link coloring OFF on input line 26.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1097,9 +1117,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count164
 )
-LaTeX Info: Redefining \ref on input line 25.
-LaTeX Info: Redefining \pageref on input line 25.
-LaTeX Info: Redefining \nameref on input line 25.
+LaTeX Info: Redefining \ref on input line 26.
+LaTeX Info: Redefining \pageref on input line 26.
+LaTeX Info: Redefining \nameref on input line 26.
 
 (./choi_amia_pre.out) (./choi_amia_pre.out)
 \@outlinefile=\write5
@@ -1130,42 +1150,42 @@ Dictionary: translator-numbers-dictionary, Language: English
 r-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 25.
+LaTeX Info: Redefining \includegraphics on input line 26.
 
 (./choi_amia_pre.nav)
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 27.
+(Font)              size <5> substituted on input line 28.
 
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2
 
-]
-LaTeX Font Info:    Try loading font information for U+msa on input line 58.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 58.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-<figs/illustration_of_embeddings.pdf, id=27, 669.50125pt x 289.08pt>
+] <figs/illustration_of_embeddings.pdf, id=40, 669.50125pt x 289.08pt>
 File: figs/illustration_of_embeddings.pdf Graphic file (type pdf)
 
 <use figs/illustration_of_embeddings.pdf>
 Package pdftex.def Info: figs/illustration_of_embeddings.pdf used on input line
- 58.
-(pdftex.def)             Requested size: 184.3758pt x 79.60971pt.
+ 59.
+(pdftex.def)             Requested size: 205.37926pt x 88.67873pt.
  [3
 
- <./figs/illustration_of_embeddings.pdf>] [4
+ <./figs/illustration_of_embeddings.pdf>]
+LaTeX Font Info:    Try loading font information for U+msa on input line 88.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 88.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [4
 
 ] [5
 
-] [6
+]
+[6
 
 ] [7
 
@@ -1174,22 +1194,22 @@ Package pdftex.def Info: figs/illustration_of_embeddings.pdf used on input line
 ] [9
 
 ]
-<figs/Figure1-claims-timeline.pdf, id=141, 723.70375pt x 381.425pt>
+<figs/Figure1-claims-timeline.pdf, id=160, 723.70375pt x 381.425pt>
 File: figs/Figure1-claims-timeline.pdf Graphic file (type pdf)
 
 <use figs/Figure1-claims-timeline.pdf>
 Package pdftex.def Info: figs/Figure1-claims-timeline.pdf used on input line 19
-4.
-(pdftex.def)             Requested size: 245.83282pt x 129.56638pt.
+5.
+(pdftex.def)             Requested size: 273.83728pt x 144.32607pt.
  [10
 
- <./figs/Figure1-claims-timeline.pdf>] <figs/Figure1-transform.pdf, id=163, 719
+ <./figs/Figure1-claims-timeline.pdf>] <figs/Figure1-transform.pdf, id=184, 719
 .68875pt x 398.48875pt>
 File: figs/Figure1-transform.pdf Graphic file (type pdf)
 
 <use figs/Figure1-transform.pdf>
-Package pdftex.def Info: figs/Figure1-transform.pdf used on input line 207.
-(pdftex.def)             Requested size: 245.83282pt x 136.11674pt.
+Package pdftex.def Info: figs/Figure1-transform.pdf used on input line 208.
+(pdftex.def)             Requested size: 273.83728pt x 151.62794pt.
  [11
 
  <./figs/Figure1-transform.pdf>] [12
@@ -1209,70 +1229,42 @@ Package pdftex.def Info: figs/Figure1-transform.pdf used on input line 207.
 
 ] [19
 
-]
-
-LaTeX Warning: Citation `DeVine2014' on page 20 undefined on input line 354.
-
-
-Overfull \hbox (27.37146pt too wide) in paragraph at lines 354--354
- [] 
- []
-
-[20
+] [20
 
 ]
-Overfull \hbox (33.23344pt too wide) in paragraph at lines 383--383
- [] 
- []
+
+LaTeX Warning: Citation `DeVine2014' on page 21 undefined on input line 404.
 
 [21
 
-]
-Overfull \hbox (23.05766pt too wide) in paragraph at lines 413--413
- [] 
- []
-
-[22
+] [22
 
 ]
 
-LaTeX Warning: Citation `DeVine2014' on page 23 undefined on input line 447.
-
-
-Overfull \hbox (31.89787pt too wide) in paragraph at lines 447--447
- [] 
- []
+LaTeX Warning: Citation `DeVine2014' on page 23 undefined on input line 468.
 
 [23
 
 ]
 
-LaTeX Warning: Citation `DeVine2014' on page 24 undefined on input line 481.
-
-
-Overfull \hbox (20.47229pt too wide) in paragraph at lines 481--481
- [] 
- []
+LaTeX Warning: Citation `DeVine2014' on page 24 undefined on input line 502.
 
 [24
 
+] [25
+
+] [26
+
 ]
-Overfull \hbox (29.70609pt too wide) in paragraph at lines 524--524
+Overfull \hbox (8.82257pt too wide) in paragraph at lines 581--581
  [] 
  []
 
-[25
-
-]
-Overfull \hbox (43.828pt too wide) in paragraph at lines 556--556
- [] 
- []
-
-[26
-
-] [27
+[27
 
 ] [28
+
+] [29
 
 ]
 \tf@nav=\write6
@@ -1284,11 +1276,11 @@ Overfull \hbox (43.828pt too wide) in paragraph at lines 556--556
 \tf@snm=\write8
 \openout8 = `choi_amia_pre.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 566.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 566.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 602.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 602.
  (./choi_amia_pre.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 566.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 566.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 602.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 602.
 Package rerunfilecheck Info: File `choi_amia_pre.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1299,39 +1291,36 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 566.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 602.
  ) 
 Here is how much of TeX's memory you used:
- 18328 strings out of 493089
- 341923 string characters out of 6134842
- 438546 words of memory out of 5000000
- 21324 multiletter control sequences out of 15000+600000
- 11175 words of font info for 44 fonts, out of 8000000 for 9000
+ 18507 strings out of 493089
+ 347433 string characters out of 6134842
+ 439703 words of memory out of 5000000
+ 21484 multiletter control sequences out of 15000+600000
+ 13981 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,13n,55p,412b,417s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,16n,57p,412b,501s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/20
-15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/t
-exmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on choi_amia_pre.pdf (28 pages, 335802 bytes).
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/201
+5/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on choi_amia_pre.pdf (29 pages, 348172 bytes).
 PDF statistics:
- 362 PDF objects out of 1000 (max. 8388607)
- 265 compressed objects within 3 object streams
- 64 named destinations out of 1000 (max. 500000)
- 58 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 406 PDF objects out of 1000 (max. 8388607)
+ 302 compressed objects within 4 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 82 words of extra memory for PDF output out of 10000 (max. 10000000)
 
