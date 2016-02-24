@@ -1,0 +1,82 @@
+\documentclass{beamer}
+
+\mode<presentation>
+{
+  \usetheme{Madrid}      % or try Darmstadt, Madrid, Warsaw, ...
+  \usecolortheme{default} % or try albatross, beaver, crane, ...
+  \usefonttheme{serif}  % or try serif, structurebold, ...
+  \setbeamertemplate{navigation symbols}{}
+  \setbeamertemplate{caption}[numbered]
+} 
+ 
+\usepackage[utf8]{inputenc}
+\usepackage[]{algorithm2e}
+
+%Information to be included in the title page:
+\title{ Learning Low-Dimensional Representations of Medical Concepts}
+\author{YD Choi, Yi-I Chiu, David Sontag}
+\institute{CILVR Lab, New York University}
+ 
+\begin{document}
+ 
+\frame{\titlepage} 
+
+\begin{frame}
+\frametitle{The Article under Investigation}
+\begin{table}[h!]
+\tbl{Display of a sub-computation for $\text{MCSM}_{\text{ULMS}}(\text{MCECN},\text{Neoplastic Process}, 8)$. The
+sub-computation concerns the neighborhood of the medical concept $4003436$(Carcinoma, non-small-cell lung). The
+medical concept type annotations are shown in the square brackets. The 
+numerical values represent the cosine distance measure of corresponding medical concepts.}
+{
+\begin{tabular}{|c|} 
+\hline
+Neighbors of CUI 4003436 (Carcinoma, non-small-cell lung) ['Neoplastic Process'] 
+\T \B \\ 
+\hline
+\textbf{4069419 (small cell carcinoma of lung, C0149925,  ['Neoplastic Process']) : 0.955599426233} \T \B \\
+\textbf{4394316 (carcinoma of lung, C0684249,  ['Neoplastic Process']) : 0.933888909808} 
+\T \B \\
+\textbf{4125384 (malignant neoplasm of lung, C0242379,  ['Neoplastic Process']) : 0.928970432186} \T \B \\
+\textbf{4070138 (adenocarcinoma of lung (disorder), C0152013,  ['Neoplastic Process']) : 0.924754262378} \T \B \\
+4555365 (tarceva, C1135136,  ['Organic Chemical', 'Pharmacologic Substance']) : 0.917757636841 \T \B \\
+4069342 (lung mass, C0149726,  ['Finding']) : 0.914073299934 \T \B \\
+4542086 (alimta, C1101816,  ['Organic Chemical', 'Pharmacologic Substance']) : 0.903354063605 \T \B \\
+\textbf{4148168 (non-small cell lung cancer metastatic, C0278987,  ['Neoplastic Process']) : 0.899565393859} \T \B \\
+\hline
+\end{tabular}
+}
+\end{frame}
+
+\begin{frame}
+\frametitle{Genetics meets Surgical Technologies: \\
+CRISPR and Xenotransplantation}
+\begin{itemize}
+\item CRISPR : A recently developed method for 
+``editing genes."
+\item Xenotransplantation :
+The transplantation of living cells, tissues or organs
+from one species to another. 
+\item It has been recently shown that a particular
+complication that arises in
+xenotransplantation, using pig organs,
+can be solved through gene-editing via CRISPR. 
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Development from Genetics: CRISPR}
+\begin{itemize}
+\item In October of 2015, scientists gathered at the National Academy of Sciences
+in Washington to talk about CRISPR, a new method for editing genes.
+
+\item Carl Zimmer claims that ``In the past couple of years, 
+the technique has become so powerful and accessible that many experts are 
+calling for limits on its potential uses — especially altering human 
+embryos with changes that could be inherited by future generations."
+\end{itemize}
+\end{frame}
+
+
+
+\end{document}
