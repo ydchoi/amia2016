@@ -64,7 +64,8 @@ embeddings.
 \begin{itemize}
 \item 
 Learning distributed low-dimensional representations,
-word embeddings, has proven particularly useful
+particularly word embeddings, 
+have proven particularly useful
 in various language processing tasks, ranging from
 simple language modeling to information extraction.
 
@@ -77,12 +78,12 @@ low dimensional representations.
 
 \bigskip
 
-\item The dimensionality of medical concepts, 
+\item The number of medical concepts, 
 identified with standard medical ontologies are
 roughly around $100,000$ (UMLS, ICD9, NDC, etc.),
-which 
-suffers from the same problem of curse of dimensionality. 
-
+which is large enough that 
+the curse of dimensionality would arise in 
+learning models.
 \end{itemize}
 \end{center}
 \end{frame}
@@ -97,7 +98,7 @@ Pointwise Mutual Information.
 
 \bigskip
 
-\item There are previous works, specifically for
+\item There are previous work, specifically for
 learning medical concept embeddings, using the
 techniques above (DeVine et al., Minaro-Gimenez et al).
 We will discuss them further in the
@@ -122,7 +123,7 @@ and necessary algorithmic adjustments.
 
 \item Quantitative analysis of the embeddings:
 an identification of abstract properties
-and their associated metrics.
+and their associated measures.
 
 
 \end{itemize}
@@ -133,7 +134,7 @@ and their associated metrics.
 \frametitle{Three Types of Medical Concept Embeddings}
 \begin{itemize}
 \item Medical Concept Embeddings from Medical
-Journals(Previous work; MCEMJ)
+Journals (Previous work; MCEMJ)
 
 \bigskip
 
@@ -162,15 +163,17 @@ words, observed at the document level.
 one can choose to train a neural network
 that optimizes the prediction of nearby words,
 or use techniques for 
-producing low-dimensional factorization of matrices. 
+producing a low-dimensional factorization of 
+the distribution matrix. 
 
 
 \bigskip
 
-\item Previous works of medical concept embeddings
-naturally extend the idea by using the same idea,
+\item Previous work of medical concept embeddings
+naturally extend the idea by using the distribution
+of nearby words at the document level,
 but restricting the algorithm to medical texts
-and only medically relevant terms. 
+and medically relevant terms only. 
 
 \end{itemize}
 \end{frame}
@@ -503,6 +506,21 @@ The Medical Relatedness Property comparison of various embeddings through $\text
 
 \begin{frame}
 \frametitle{Summary of the Analysis}
+\begin{itemize}
+\item
+Our experimental results illustrated that,
+not surprisingly, the embeddings learned 
+on different types of data capture different semantics.
+
+\bigskip
+
+\item In particular, the empirical results show that
+the two sets of embeddings that this work introduces
+exhibit the Medical Relatedness Property through
+their neighborhood structures more strongly than
+the ones from previous work.
+
+\end{itemize}
 \end{frame}
 
 \begin{frame}
@@ -549,7 +567,7 @@ the top $5$ neighbors for each type of code, filtering duplicates.\label{table:n
 \end{frame}
 
 \begin{frame}
-\frametitle{Neighborhood Visualization: $MCECN$}
+\frametitle{Neighborhood Visualization II: $MCECN$}
 \begin{table}[t]
 \caption{\centering \scriptsize
  A few neighborhood
@@ -581,20 +599,20 @@ the top $5$ neighbors for each type of code, filtering duplicates.\label{table:n
 \end{frame}
 
 \begin{frame}
-\frametitle{the article under investigation}
-\end{frame}
-
-\begin{frame}
 \frametitle{Future Work}
 \begin{itemize}
-\item As mentioned earlier, looking at various 
-parametrizations, arising from different
+\item As mentioned earlier, further investigation
+on various 
+parametrizations, arising from different existing
 medical ontologies.
 
 \bigskip
 
 \item An iterative loop of updating the ontologies,
-and searching for new meaningful signals. 
+and the use of unexpected medical relatedness,
+which goes beyond just using the presented analysis
+for verification of our common intuition for
+medical concepts.
 
 \end{itemize}
 \end{frame}
